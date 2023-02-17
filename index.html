@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+<body>
+    
+<!-- navabar -->
+<section  id="navbar-top">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input  class="form-control me-2 w-75" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success w-50" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+</section>
+
+
+<!-- hero section -->
+<section id="hero">
+    <div class="hero-heading">
+        <h1>I am <span class="first-name">Sohag </span>Islam</h1>
+    </div>
+</section>
+
+<!-- about section  -->
+<section id="about" class="about-section">
+    <div class="about-heading">
+ <h2>About Me</h2>
+    </div>
+<div id="about-section-container">
+
+
+    <div class="left-side ">
+        <div class="about-img">
+            <img src="images/gentle2.jpg" alt="">
+               </div>
+               <div class="self-intro">
+                   <h5>My name is Sohag Islam.I am a Full Stack Web Developer. I am Student of CSE at Manarat International Univeristy,Dhaka.</h5>
+               </div>
+      </div>
+    
+      <div class="right-side">
+    
+        <div class="skills">
+            <h5>HTML</h5>
+            <div class="progress">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+              </div>
+              <h5>CSS</h5>
+              <div class="progress">
+                <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">80%</div>
+              </div>
+              <h5>Javascript</h5>
+              <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">70%</div>
+              </div>
+              <h5>React</h5>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">60%</div>
+              </div>
+              <h5>Node.js</h5>
+              <div class="progress">
+                <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">50%</div>
+              </div>
+          </div>
+        
+        
+          <div class="experience">
+            <h5>I have been learning full stack web development for 2 years.I used 1 year for front-end and 1 year for back-end.</h5>
+          </div>
+    
+      </div>
+
+</div>
+
+</section>
+
+
+<section id="portfolio"  class="container portfolio">
+
+    <ul>
+        <li class="list active" data-filter="all">All</li>
+        <li class="list" data-filter="hospital">Hospital</li>
+        <li class="list" data-filter="resturant">Resturant</li>
+        <li class="list" data-filter="school">School</li>
+        <li class="list" data-filter="ecommerce">E-commerce</li>
+    </ul>
+    <div class="product">
+       <div class="itemBox" data-item="hospital">
+        <img src="images/hospital.jpg" alt="">
+        <h3>Hospital</h3>
+        <p>Hospital project means a specific work or improvement or the refinancing of existing indebtedness which constitutes a lien or encumbrance upon the real property or assets of the eligibl</p>
+    </div>
+       <div class="itemBox" data-item="resturant">
+        <img src="images/resturant.jpg" alt="">
+        <h3>Resturant</h3>
+        <p class="description">Essentially, any business that allows customers to enter the premises, order food, and eat that food on the premises can be considered part of the restaurant industry, even if they offer other services too.</p>
+    </div>
+       <div class="itemBox" data-item="school">
+        <img src="images/school.jpg" alt="">
+        <h3>School</h3>
+        <p>
+          The School Project is an independent cross-platform media project. It explores what a healthy public education system looks like through the lens of Chicago Public Schools.</p>
+    </div>
+       <div class="itemBox" data-item="ecommerce">
+        <img src="images/ecommerce.jpg" alt="">
+        <h3>E-Commerce</h3>
+        <p>This is a project with the objective to develop a basic website where a consumer is provided with a shopping cart application and also to know about the technologies used to develop such an application</p>
+    </div>
+       <div class="itemBox" data-item="hospital">
+        <img src="images/hospital2.jpg" alt="">
+        <h3>Hospital</h3>
+        <p>Hospital project means a specific work or improvement or the refinancing of existing indebtedness which constitutes a lien or encumbrance upon the real property or assets of the eligibl.</p>
+    </div>
+       <div class="itemBox" data-item="resturant">
+        <img src="images/resturant2.jpg" alt="">
+        <h3>Resturant</h3>
+        <p>Essentially, any business that allows customers to enter the premises, order food, and eat that food on the premises can be considered part of the restaurant industry, even if they offer other services too.</p>
+    </div>
+       <div class="itemBox" data-item="school">
+        <img src="images/school2.jpg" alt="">
+        <h3>School</h3>
+        <p>The School Project is an independent cross-platform media project. It explores what a healthy public education system looks like through the lens of Chicago Public Schools.</p>
+    </div>
+       <div class="itemBox" data-item="ecommerce">
+        <img src="images/ecommerce2.jpg" alt="">
+        <h3>E-commerce</h3>
+        <p>This is a project with the objective to develop a basic website where a consumer is provided with a shopping cart application and also to know about the technologies used to develop such an application</p>
+    </div>
+    </div>
+</section>
+
+
+<!-- Testimonial -->
+
+<div class="container">
+  <h3 class="clients-heading"> Clients Feedback</h3>
+  <div class="row">
+      <div class="col-md-12">
+          <div id="testimonial-slider" class="owl-carousel">
+              <div class="testimonial">
+                  <div class="pic">
+                      <img src="https://images.pexels.com/photos/704955/pexels-photo-704955.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+                  </div>
+                  <p class="description">
+                    “I saw that you learned how to use pivot tables for your Excel project and it really helped display the data. Even though that wasn’t in your job description, it shows that you are a great learner and hungry to do the best job possible.”
+                  </p>
+                  <h3 class="title">Jessica</h3>
+                  <small class="post">- Archietect</small>
+              </div>
+
+              <div class="testimonial">
+                  <div class="pic">
+                      <img src="https://images.pexels.com/photos/638700/pexels-photo-638700.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+                  </div>
+                  <p class="description">
+                    I noticed last week that you restructured our shared Google Sheet with conditional formatting that made it easier for me to understand and read the data. I appreciate you taking the initiative to learn how to do that.”
+                  </p>
+                  <h3 class="title">Pearl</h3>
+                  <small class="post">- Engineer </small>
+              </div>
+
+              <div class="testimonial">
+                  <div class="pic">
+                      <img src="https://images.pexels.com/photos/531139/pexels-photo-531139.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+                  </div>
+                  <p class="description">
+                    “I know this goal wasn’t easy. How you managed to set it and systematically work towards it until you achieved it truly speaks to your intelligence, tenacity, and perseverance. I’m lucky to have you on my team.”
+                  </p>
+                  <h3 class="title">Kellie</h3>
+                  <small class="post">- Graphic Designer</small>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- contact section -->
+<div class="container">
+  <form id="form" class="form">
+      <h2>Contact With Me</h2>
+      <div class="form-control">
+          <label for="username">Name</label>
+          <input type="text" id="username" placeholder="Enter Username">
+          <small>Error Message</small>
+      </div>
+      <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter email">
+          <small>Error Message</small>
+      </div>
+      <div class="form-control">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" placeholder="Enter Subject">
+        <small>Error Message</small>
+    </div>
+    <div class="form-control">
+      <label for="message">Message</label>
+      <input type="text" id="message" placeholder="Enter Message">
+      <small>Error Message</small>
+  </div>
+      <button>Submit</button>
+  </form>
+</div>
+
+
+
+
+<script>
+  $(document).ready(function(){
+      $("#testimonial-slider").owlCarousel({
+          items:2,
+          itemsDesktop:[1000,2],
+          itemsDesktopSmall:[990,2],
+          itemsTablet:[768,1],
+          pagination:true,
+          navigation:false,
+          navigationText:["",""],
+          slideSpeed:1000,
+          autoPlay:true
+      });
+  });
+</script>
+
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+</body>
+</html>
